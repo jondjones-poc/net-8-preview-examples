@@ -3,9 +3,9 @@ using System.Globalization;
 using System.Text;
 
 namespace net_8 {
-    public class Indexing {
+    public class Performance {
 
-        public Indexing() {
+        public Performance() {
 
             IndexOfAnyValuesExample();
             CompositeFormatExample();
@@ -13,13 +13,13 @@ namespace net_8 {
 
         public void IndexOfAnyValuesExample() {
 
-            var example = "-.0123456789ABCDEFGH IJKLMNOPQRST UVWXYZ_abcdefghijklmnopqrstuvwxyz";
+            var example = "This is some text";
 
-            var oldWay = "012".ToCharArray();
-            int oldIndex = example.IndexOfAny(oldWay);
+            var oldWay = "is".ToCharArray();
+            var oldIndex = example.IndexOfAny(oldWay);
 
-            var newWay = IndexOfAnyValues.Create("012");
-            int newIndex = example.AsSpan().IndexOfAny(newWay);
+            var newWay = IndexOfAnyValues.Create("is");
+            var newIndex = example.AsSpan().IndexOfAny(newWay);
         }
 
         public void CompositeFormatExample() {

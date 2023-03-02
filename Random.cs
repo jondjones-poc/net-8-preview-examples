@@ -18,7 +18,7 @@ namespace net_8 {
         private void GetItems(List<string> list) {
 
             var readOnly = new ReadOnlySpan<string>(list.ToArray());
-            var items = RandomNumberGenerator.GetItems(readOnly, 1);
+            var items = RandomNumberGenerator.GetItems(readOnly, 2);
         }
 
         private void Shuffle(List<string> list) {

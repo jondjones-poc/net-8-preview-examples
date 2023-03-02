@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_Code\\POC\\net-8\\net-8\\net-8.csproj": {}
+    "C:\\_Code\\POC\\net-8-preview-examples\\net-8.csproj": {}
   },
   "projects": {
-    "C:\\_Code\\POC\\net-8\\net-8\\net-8.csproj": {
+    "C:\\_Code\\POC\\net-8-preview-examples\\net-8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_Code\\POC\\net-8\\net-8\\net-8.csproj",
+        "projectUniqueName": "C:\\_Code\\POC\\net-8-preview-examples\\net-8.csproj",
         "projectName": "net-8",
-        "projectPath": "C:\\_Code\\POC\\net-8\\net-8\\net-8.csproj",
+        "projectPath": "C:\\_Code\\POC\\net-8-preview-examples\\net-8.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\_Code\\POC\\net-8\\net-8\\obj\\",
+        "outputPath": "C:\\_Code\\POC\\net-8-preview-examples\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

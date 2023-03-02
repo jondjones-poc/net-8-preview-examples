@@ -3,7 +3,6 @@ namespace net_8 {
         public static void Main(string[] args) {
 
             var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddAuthorization();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
@@ -28,8 +27,8 @@ namespace net_8 {
                 frozen.FreezeMe();
             });
 
-            app.MapGet("/indexing", (HttpContext httpContext) => {
-                var indexing = new Indexing();
+            app.MapGet("/performance", (HttpContext httpContext) => {
+                var indexing = new Performance();
             });
 
 

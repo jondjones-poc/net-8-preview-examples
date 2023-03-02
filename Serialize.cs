@@ -15,9 +15,11 @@ namespace net_8 {
             var snakeOptions = new JsonSerializerOptions {
                 PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower
             };
-            snakeOptions.MakeReadOnly();
 
-            var snake = JsonSerializer.Serialize(new { ThisIsALongNameExample = "Hi" }, snakeOptions);
+            var snake = JsonSerializer.Serialize(new
+            {
+                ThisIsALongNameExample = "Hi"
+            }, snakeOptions);
         }
 
         private static void Kebab() {
@@ -25,7 +27,12 @@ namespace net_8 {
             var kebabOptions = new JsonSerializerOptions {
                 PropertyNamingPolicy = JsonNamingPolicy.KebabCaseLower
             };
-            var kebab = JsonSerializer.Serialize(new { ThisIsALongNameExample = "Hi" }, kebabOptions);
+
+            var kebab = JsonSerializer.Serialize(new
+            {
+                ThisIsALongNameExample = "Hi"
+
+            }, kebabOptions);
         }
 
         public void SerializeInterfaceHierarchies() {
